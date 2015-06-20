@@ -108,7 +108,3 @@ else:
 	# Rename all the found files
 	massRenamer = MassFileRenamer( sys.argv[1], dirReader.files, sys.argv[2], counter )
 	massRenamer.renameFiles()
-
-# ToDo:
-# - Kopfzeile
-# - GitHub Folder
