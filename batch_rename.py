@@ -46,8 +46,7 @@ class MassFileRenamer( object ):
 		for f in self._file_list:
 			cntr = cntr + 1
 			new_file_name = self._buildNewFileName( f, cntr )
-			print "Old: " + f
-			print "New: " + new_file_name
+			print "Old: " + f + " >> " + "New: " + new_file_name
 			try:
 				os.rename( f, new_file_name )
 			except:
